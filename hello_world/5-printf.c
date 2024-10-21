@@ -2,7 +2,7 @@
 /**
  * main - Entry point of the program
  *
- * Description: This function prints "with proper grammar, but the outcome 
+ * Description: This function prints "with proper grammar, but the outcome
  * is a piece of art," followed by a new line to the standard output.
  *
  * Return: Always 0 (Success)
