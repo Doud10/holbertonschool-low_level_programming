@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
  * main - Entry point of the program
- * 
+ *
  * Description: This function prints the sizes of various data types.
  *
- * Return: Always 0 (Success) 
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
