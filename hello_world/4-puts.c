@@ -1,7 +1,9 @@
 #!/bin/bash
-int main () {
-    char message [] = "Programming is like building a multilingual puzzle"
-    write (1, message, sizeof(message));
-    return 0; 
-    
-gcc -o  helloworld 4-puts.c
+cat <<EOF > 4-puts.c
+#include <stdio.h>
+int main(void) {
+puts("Programming is like building a multilingual puzzle");
+ return 0;
+   }
+EOF
+gcc -o helloworld 4-puts.c
