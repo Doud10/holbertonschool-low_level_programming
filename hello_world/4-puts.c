@@ -4,4 +4,4 @@ int main () {
     write (1, message, sizeof(message));
     return 0; 
     
-gcc -O helloworld 4-puts.c
+gcc -o  helloworld 4-puts.c
