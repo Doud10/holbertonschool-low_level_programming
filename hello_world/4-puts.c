@@ -1,2 +1,7 @@
 #!/bin/bash
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 4-puts.c
+int main () {
+    char message [] = "Programming is like building a multilingual puzzle"
+    write (1, message, sizeof(message));
+    return 0; 
+    
+gcc -O helloworld 4-puts.c
