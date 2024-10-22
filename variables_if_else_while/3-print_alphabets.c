@@ -10,10 +10,10 @@
 int main(void)
 {
 char ch;
-for (ch = 'a'; ch <= 'z'; ch++)  // Loop to print lowercase letters
+for (ch = 'a'; ch <= 'z'; ch++)
 putchar(ch);
-for (ch = 'A'; ch <= 'Z'; ch++)  // Loop to print uppercase letters
+for (ch = 'A'; ch <= 'Z'; ch++)
 putchar(ch);
-putchar('\n');  // Print a new line
+putchar('\n');
 return (0);
 }
