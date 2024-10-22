@@ -10,13 +10,13 @@
 int main(void)
 {
 char ch;
-for (ch = 'a'; ch <= 'z'; ch++)  // Loop through the alphabet
+for (ch = 'a'; ch <= 'z'; ch++)
 {
-if (ch != 'q' && ch != 'e')  // Skip 'q' and 'e'
+if (ch != 'q' && ch != 'e')
 {
-putchar(ch);  // Print the character
+putchar(ch);
 }
 }
-putchar('\n');  // Print a new line
+putchar('\n');
 return (0);
 }
