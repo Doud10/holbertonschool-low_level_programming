@@ -10,13 +10,10 @@
 int main(void)
 {
 int i;
-
-for (i = 0; i < 10; i++)  // Loop from 0 to 9
+for (i = 0; i < 10; i++)
 {
-putchar(i + '0');  // Print the digit as a character
+putchar(i + '0');
 }
-
-putchar('\n');  // Print a new line
-
-return (0);  // Return 0 to indicate successful execution
+putchar('\n');
+return (0);
 }
