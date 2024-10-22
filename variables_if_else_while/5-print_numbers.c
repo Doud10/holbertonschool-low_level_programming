@@ -10,10 +10,10 @@
 int main(void)
 {
 int i;
-for (i = 0; i < 10; i++)  // Loop from 0 to 9
+for (i = 0; i < 10; i++)
 {
-putchar(i + '0');  // Convert the integer to a character and print it
+putchar(i + '0');
 }
-putchar('\n');  // Print a new line
-return (0);  // Return 0 to indicate successful execution
+putchar('\n');
+return (0);
 }
