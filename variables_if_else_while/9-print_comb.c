@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - Entry point
  *
@@ -10,20 +9,16 @@
  */
 int main(void)
 {
-    int i;
-
-    for (i = 0; i < 10; i++)  // Loop through digits 0 to 9
-    {
-        putchar(i + '0');  // Print the digit
-
-        if (i < 9)  // Check if it's not the last digit
-        {
-            putchar(',');  // Print a comma
-            putchar(' ');  // Print a space
-        }
-    }
-
-    putchar('\n');  // Print a new line
-
-    return (0);  // Return 0 to indicate successful execution
+int i;
+for (i = 0; i < 10; i++)
+{
+putchar(i + '0');
+if (i < 9)
+{
+putchar(',');
+putchar(' ');
+}
+}
+putchar('\n');
+return (0);
 }
