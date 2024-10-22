@@ -9,10 +9,10 @@
 int main(void)
 {
 char ch;
-for (ch = 'a'; ch <= 'z'; ch++)  // Loop through 'a' to 'z'
+for (ch = 'a'; ch <= 'z'; ch++)
 {
-putchar(ch);  // Print each character
+putchar(ch);
 }
-putchar('\n');  // Print new line
+putchar('\n');
 return (0);
 }
