@@ -9,14 +9,11 @@
  */
 int main(void)
 {
-    int i;
-
-    for (i = 'z'; i >= 'a'; i--)  // Loop from 'z' to 'a'
-    {
-        putchar(i);  // Print each character
-    }
-
-    putchar('\n');  // Print a new line
-
-    return (0);  // Return 0 to indicate successful execution
+int i;
+for (i = 'z'; i >= 'a'; i--)
+{
+putchar(i);
+}
+putchar('\n');
+return (0);
 }
