@@ -8,17 +8,12 @@
  */
 int main(void)
 {
-// Define a string to print
-char str[] = "_putchar";  
+char str[] = "_putchar";
 int i;
-
-// Loop through each character in the string
 for (i = 0; str[i] != '\0'; i++)
 {
-putchar(str[i]);  // Print each character
+putchar(str[i]);
 }
-
-putchar('\n');  // Print a new line
-
-return (0);  // Return 0 to indicate successful execution
+putchar('\n');
+return (0);
 }
