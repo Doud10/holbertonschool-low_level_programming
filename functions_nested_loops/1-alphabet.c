@@ -1,16 +1,17 @@
-#include <unistd.h>
-
+#include "main.h"
 /**
- * _putchar - Writes the character c to stdout.
- * @c: The character to print
+ * print_alphabet - Prints the alphabet in lowercase, followed by a new line.
  *
- * Return: On success, returns 1.
- * On error, returns -1, and errno is set appropriately.
- *
- * Description: This function uses the POSIX write system call to
- * output a single character to the standard output.
+ * Description: This function prints all lowercase letters from 'a' to 'z'
+ * using only two calls to _putchar: one for the alphabet string and one
+ * for the newline character.
  */
-int _putchar(char c)
+void print_alphabet(void)
 {
-return (write(1, &c, 1));
+char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
+for (int i = 0; i < 26; i++)
+{
+_putchar(alphabet[i]);
+}
+_putchar('\n');
 }
