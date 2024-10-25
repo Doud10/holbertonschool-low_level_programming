@@ -6,12 +6,8 @@
  * using only two calls to _putchar: one for the alphabet string and one
  * for the newline character.
  */
-void print_alphabet(void)
+int main(void)
 {
-char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
-for (int i = 0; i < 26; i++)
-{
-_putchar(alphabet[i]);
-}
-_putchar('\n');
+print_alphabet();
+return (0);
 }
