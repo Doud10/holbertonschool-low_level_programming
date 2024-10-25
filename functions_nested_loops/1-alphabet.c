@@ -1,12 +1,15 @@
-#include <unistd.h>
+#include "main.h"
 /**
- * _putchar - Writes the character c to stdout.
- * @c: The character to print
+ * print_alphabet -print alphabets
  *
- * Return: On success, returns 1.
- * On error, returns -1, and errno is set appropriately.
  */
-int _putchar(char c)
+void print_alphabet(void)
 {
-return (write(1, &c, 1));
+char al;
+al = 'a';
+while (al <= 'z')
+{
+_putchar(al);
+al++;
 }
+_putchar('\n');
