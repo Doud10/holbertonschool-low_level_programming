@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h> 
 /**
  * print_numbers_ten_times - Prints the numbers from 0 to 14, 10 times.
  */
