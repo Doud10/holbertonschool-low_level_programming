@@ -1,13 +1,13 @@
 #include "main.h"
 /**
  * print_diagonal - Draws a diagonal line on the terminal.
- * @n: The number of times the backslash character should be printed, 
+ * @n: The number of times the backslash character should be printed,
  *     representing the length of the diagonal line.
  */
 void print_diagonal(int n)
 {
 int i, j;
-if (n > 0) 
+if (n > 0)
 {
 for (i = 0; i < n; i++)
 {
