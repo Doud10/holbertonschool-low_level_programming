@@ -4,8 +4,8 @@
 */
 void print_alphabet(void)
 {
-char b;
-for (b = 'a'; b >= 'z'; b++)
-_putchar (b);
+int A;
+for (A = 'a'; A <= 'z'; A++)
+_putchar (A);
 _putchar('\n');
 }
