@@ -13,8 +13,3 @@ int main(void)
     _puts(str);
     return (0);
 }
-int main(void)
-{
-    _puts("Hello, Holberton!");
-    return 0;
-}
