@@ -1,10 +1,18 @@
-#include <unistd.h>
+#include "main.h"
 /**
- * _putchar - Writes a character to stdout.
- * @c: The character to be written.
- * Return: On success, return 1. On error, return -1.
+ * print_rev - Prints a string in reverse followed by a new line.
+ * @str: Pointer to the string to be printed.
  */
-int _putchar(char c)
+void print_rev(char *str)
 {
-return write(1, &c, 1);
+int length = 0;
+while (str[length] != '\0')
+{
+length++;
+}
+for (length--; length >= 0; length--)
+{
+_putchar(str[length]);
+}
+_putchar('\n');
 }
