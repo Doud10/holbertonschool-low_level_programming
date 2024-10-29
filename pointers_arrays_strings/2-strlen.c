@@ -12,5 +12,5 @@ while (s[length] != '\0')
 {
 length++;
 }
-return (lengt)h;
+return (length);
 }
