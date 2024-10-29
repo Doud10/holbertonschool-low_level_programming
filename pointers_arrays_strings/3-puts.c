@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * print_string - Prints a string followed by a new line.
+ * _puts - Prints a string followed by a new line.
  * @str: Pointer to the string to be printed.
  */
 void _puts(char *str)
