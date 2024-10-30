@@ -10,11 +10,9 @@ while (s[length] != '\0')
 {
 length++;
 }
-length--;
-while (length >= 0)
+for (int i = length - 1; i >= 0; i--)
 {
-_putchar(s[length]);
-length--;
+_putchar(s[i]);
 }
 _putchar('\n');
 }
