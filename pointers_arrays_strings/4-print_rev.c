@@ -1,23 +1,19 @@
-#include "main.h"
+#include <unistd.h>
 /**
- * print_rev - imprime en reversa
- *@s: string
- * return: 0
+ * _puts_reverse - Prints a string in reverse followed by a new line.
+ * @str: Pointer to the string to be printed.
  */
-void print_rev(char *s);
+void _puts_reverse(char *str)
 {
-int longi = 0;
-int o;
-while (*s != '\0')
+int len = 0;
+while (str[len] != '\0')
 {
-longi++;
-s++;
+len++;
 }
-s--;
-for (O = longi; o > 0; o--)
+while (len > 0)
 {
-_putchar(*s);
-s--;
+write(1, &str[len - 1], 1);
+len--;
 }
-_putchar('\n');
+write(1, "\n", 1);
 }
